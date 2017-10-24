@@ -1,5 +1,6 @@
 # pomeg
 pomeg(ranate) a cli helper that create sprite image and output the raw offset information.
+![](https://github.com/IAIAE/pome/blob/master/pome.png)
 
 # usage
 
