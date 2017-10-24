@@ -5,7 +5,7 @@ pome(granate) a cli helper that create sprite image and output the raw offset in
 # usage
 
 ## module
-read all images in `./js_images` and generate a sprite image named `sprite.png`
+read all images in `./js_images` and write a sprite image file named `sprite.png`.
 ```javascript
 const Pome = require('pomeg')
 
