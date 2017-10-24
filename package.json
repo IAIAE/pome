@@ -1,6 +1,6 @@
 {
-  "name": "pome",
-  "version": "0.0.1",
+  "name": "pomeg",
+  "version": "1.0.0",
   "description": "a cli helper that create sprite image and output the raw offset information.",
   "main": "dist/index.js",
   "scripts": {

@@ -1,5 +1,5 @@
-# pome
-a cli helper that create sprite image and output the raw offset information.
+# pomeg
+pomeg(ranate) a cli helper that create sprite image and output the raw offset information.
 
 # usage
 
