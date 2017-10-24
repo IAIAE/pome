@@ -1,5 +1,5 @@
-# pomeg
-pomeg(ranate) a cli helper that create sprite image and output the raw offset information.
+# pome
+pome(granate) a cli helper that create sprite image and output the raw offset information.
 ![](https://github.com/IAIAE/pome/blob/master/pome.png)
 
 # usage
@@ -7,7 +7,7 @@ pomeg(ranate) a cli helper that create sprite image and output the raw offset in
 ## module
 read all images in `./js_images` and generate a sprite image named `sprite.png`
 ```javascript
-const Pome = require('../dist/index')
+const Pome = require('pomeg')
 
 let task = new Pome('./js_images', {
     padding: 0,
@@ -19,7 +19,7 @@ console.info(sourceMap)
 
 ## CLI
 ```
-$> npm install -g pome
+$> npm install -g pomeg
 $> pome ./js_images ./sprite.png
 ```
 
