@@ -1,0 +1,17 @@
+{
+    "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    // "transform-strict-mode",
+    "external-helpers"
+    // "transform-es2015-spread",
+    // "transform-es2015-destructuring",
+    // "transform-es2015-parameters"
+  ]
+}

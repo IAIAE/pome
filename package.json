@@ -1,0 +1,40 @@
+{
+  "name": "pome",
+  "version": "0.0.1",
+  "description": "a cli helper that create sprite image and output the raw offset information.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAIAE/pome.git"
+  },
+  "bin": {
+    "pome": "./bin/main.js"
+  },
+  "keywords": [
+    "sprite",
+    "images"
+  ],
+  "author": "IAIAE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IAIAE/pome/issues"
+  },
+  "homepage": "https://github.com/IAIAE/pome#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rollup": "^0.41.1",
+    "rollup-plugin-babel": "^3.0.1"
+  },
+  "dependencies": {
+    "images": "^3.0.1",
+    "layout": "^2.2.0",
+    "praan": "^1.4.0"
+  }
+}
