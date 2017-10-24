@@ -20,7 +20,7 @@ console.info(sourceMap)
 ## CLI
 ```
 $> npm install -g pomeg
-$> pomeg ./js_images ./sprite.png
+$> pome ./js_images ./sprite.png
 ```
 
 enjoy it
